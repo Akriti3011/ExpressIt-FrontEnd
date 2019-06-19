@@ -1,0 +1,17 @@
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 3px;
+  background: #000000;
+  transition: 0.2s;
+  margin-top: 6px;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
