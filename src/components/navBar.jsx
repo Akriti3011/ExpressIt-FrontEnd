@@ -17,7 +17,7 @@ class Navbar extends Component {
       ? "navbar-toggler navbar-toggler-right collapsed"
       : "navbar-toggler navbar-toggler-right";
     return (
-      <nav className="nav navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <nav className="nav navbar-expand-lg sticky-top">
         <Link className="navbar-brand" to="/">
           ExpressIt
         </Link>

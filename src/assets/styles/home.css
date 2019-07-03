@@ -1,0 +1,29 @@
+.home-wrapper {
+    background: #eeeeee;
+    -webkit-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -10deg);
+    margin-top: -120px;
+  }
+  .home-wrapper .container {
+    -webkit-transform: skew(0deg, 10deg);
+    transform: skew(0deg, 10deg);
+  }
+
+  .home-wrapper .container .quote{
+      font-size: 28px;
+      color: #f97300;
+      margin-top: 32vh;
+      display: inline-block;
+  }
+
+  .home-wrapper .container .quoteBy{
+    font-size: 20px;
+    color: #aaaaaa;
+    margin-top: 0 !important;
+}
+
+.home-wrapper .container .takeMe{
+    background-color: #0e3047;
+    color: #fafbfc;
+    margin-top: 6vh;
+}

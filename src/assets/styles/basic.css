@@ -1,0 +1,10 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
+.body-content{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    margin-top: 85px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  }
+

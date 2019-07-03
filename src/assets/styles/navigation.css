@@ -1,0 +1,43 @@
+.navbar{
+    padding: 5px 40px !important;
+    background-color: #0e3047;
+}
+
+.navbar-nav .nav-link{
+    padding: 0 20px !important;
+    color: #eeeeee !important;
+}
+
+.navbar-nav .nav-link.active{
+    color: #f97300 !important;
+}
+
+.navbar-brand .brand-logo{
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    padding: 0 !important;
+}
+
+.navbar-toggler{
+    background-color: #fafbfc !important;
+}
+
+@media only screen and (max-width: 360px) {
+    .navbar-brand .brand-logo{
+        width: 160px;
+    }
+    .navbar{
+        padding: 3px 15px !important;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .navbar-brand .brand-logo{
+        width: 180px;
+    }
+    .navbar{
+        padding: 5px 40px !important;
+    }
+  }
+

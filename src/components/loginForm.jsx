@@ -2,7 +2,7 @@ import React from "react";
 import Joi from "joi-browser";
 import Form from "./common/form";
 import "./sign-in.css";
-import userLogo from "../icons/user.svg";
+import userLogo from "../assets/icons/user.svg";
 import axios from "axios";
 
 class LoginForm extends Form {

@@ -2,7 +2,7 @@ import React from "react";
 import Joi from "joi-browser";
 import Form from "./common/form";
 import "./sign-in.css";
-import regUser from "../icons/add-user.svg";
+import regUser from "../assets/icons/add-user.svg";
 
 class RegisterForm extends Form {
   state = {

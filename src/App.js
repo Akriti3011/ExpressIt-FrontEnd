@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import { Route, Redirect, Switch } from "react-router-dom";
 import "./App.css";
-import NavBar from "./components/navBar";
 import Home from "./components/home";
 import RegisterForm from "./components/registerForm";
 import LoginForm from "./components/loginForm";
 import NotFound from "./components/notFound";
 import Discuss from "./components/discuss";
+import Navigation from "./components/navigation";
+import "./assets/styles/basic.css";
+import Footer from "./components/footer";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavBar />
-        <br />
-        <br />
-        <main className="container">
+      <Navigation />
+        <main className="body-content">
           <Switch>
             <Route path="/home" component={Home} />
             <Route path="/discuss" component={Discuss} />
@@ -26,6 +26,7 @@ class App extends Component {
             <Redirect to="/not-found" />
           </Switch>
         </main>
+        <Footer />
       </React.Fragment>
     );
   }

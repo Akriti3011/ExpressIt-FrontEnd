@@ -1,5 +1,5 @@
 import React from "react";
-import ntFndImg from "../icons/IAF.jpg";
+import ntFndImg from "../assets/icons/IAF.jpg";
 
 const NotFound = () => {
   return (
