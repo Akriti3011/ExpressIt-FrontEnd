@@ -1,0 +1,28 @@
+.not-found-page-title{
+    color: #f97300;
+    margin-top: 1vh;
+}
+
+.notFound{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.notFoundImage{
+    width: 150px;
+}
+
+.notFound .home{
+    background-color: #0e3047;
+    color: #fafbfc;
+    margin-top: 2vh;
+}
+
+
+.notFound .home:hover{
+    color: #eeeeee;
+}
+

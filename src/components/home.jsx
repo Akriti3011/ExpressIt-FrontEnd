@@ -16,7 +16,7 @@ class Home extends Component {
           restriction upon democracy. &rdquo;
         </blockquote>
         <div className="quoteBy">-Deeyah Khan</div>
-        <a href="/discuss"><button className="btn btn-lg takeMe" >Take me there &#10145;</button></a>
+        <a href="/discuss"><button className="btn btn-lg takeMe">Take me there &#10145;</button></a>
       </div>
       </div>
         </div>
