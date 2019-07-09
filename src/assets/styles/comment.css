@@ -1,0 +1,28 @@
+.comment-container{
+  margin-bottom: 4vh !important;
+}
+
+.time{
+  font-size: 12px;
+}
+
+.name{
+  color: #f97300;
+}
+
+.comment{
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.self-comment{
+  background-color: #0e3047;
+  color: #fafbfc;
+}
+
+.others-comment{
+  background-color: #fafbfc;
+  color: #0e3047;
+}

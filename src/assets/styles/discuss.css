@@ -1,0 +1,23 @@
+.comment-wrapper{
+    overflow: auto;
+    height: 60vh;
+    min-height: 60vh;
+    border: 1px solid #dddddd;
+    padding: 3vh;
+}
+
+.emptyText{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.emptyText>div{
+    font-size: 20px;
+}
+
+.emptyImage{
+    width: 70px;
+}

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
+import "../assets/styles/basic.css";
+import "../assets/styles/commentForm.css";
 
 class CommentForm extends Component {
   state = {
@@ -25,22 +27,24 @@ class CommentForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <div className="form-group">
-          <button
-            className="btn btn-sm btn-primary"
-            style={{ float: "right", width: "5%", height: "45px" }}
-          >
-            post
-          </button>
+        <div className="form-group comment-box-wrapper">
+        <div className="row">
+          <div className="col-sm-11">
           <textarea
-            style={{ overflowY: "scroll", height: "45px", width: "95%" }}
             onChange={this.handleChange}
             value={this.state.comment}
-            className="form-control"
-            placeholder="🤬 Your Comment"
+            className="form-control comment-box"
+            placeholder="Your Comment"
             name="content"
             rows="5"
           />
+          </div>
+          <div className="col-sm-1">
+          <button className="btn comment-button float-right">
+            <span>&#10148;</span>
+          </button>
+          </div>
+        </div> 
         </div>
       </form>
     );
